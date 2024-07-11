@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0d1a6e;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#nome-gerado {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.copy_right_footer {
+    position: fixed;
+    color: black;
+    bottom:0;
+    width:  100%;
+    background-color: white;
+    line-height: 3;
+    text-align: center;
+}
